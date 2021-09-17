@@ -10,8 +10,7 @@ console.log('NODE_ENV', process.env.NODE_ENV);
 console.log('NETLIFY', process.env.NETLIFY);
 console.log('BUILD_ID', process.env.BUILD_ID);
 console.log('DEPLOY_CONTEXT', process.env.DEPLOY_CONTEXT);
-const env = process.env
-console.log(JSON.stringify(env, null, 2);
+console.log(process.env)
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
