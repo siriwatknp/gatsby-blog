@@ -1,0 +1,5 @@
+[context.production.environment]
+  DEPLOY_CONTEXT = "live"
+
+[context.deploy-preview.environment]
+  DEPLOY_CONTEXT = "preview"
