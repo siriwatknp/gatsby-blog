@@ -5,12 +5,13 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
+console.log('ACCESS_TOKEN', process.env.ACCESS_TOKEN);
+console.log('NODE_VERSION', process.env.NODE_VERSION);
 console.log('CONTEXT', process.env.CONTEXT);
 console.log('NODE_ENV', process.env.NODE_ENV);
 console.log('NETLIFY', process.env.NETLIFY);
 console.log('BUILD_ID', process.env.BUILD_ID);
 console.log('DEPLOY_CONTEXT', process.env.DEPLOY_CONTEXT);
-console.log(process.env)
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
