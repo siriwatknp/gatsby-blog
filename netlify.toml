@@ -1,8 +1,2 @@
-[context.production.environment]
-  DEPLOY_CONTEXT = "live"
-
-[context.deploy-preview.environment]
-  DEPLOY_CONTEXT = "preview"
-
-[[plugins]]
-  package = "./plugins/netlify-plugin-env-var-by-context"
+[context.production]
+  environment = { ACCESS_TOKEN = "super secret", NODE_VERSION = "14.15.3" }
