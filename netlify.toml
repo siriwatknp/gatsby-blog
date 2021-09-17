@@ -3,3 +3,6 @@
 
 [context.deploy-preview.environment]
   DEPLOY_CONTEXT = "preview"
+
+[[plugins]]
+  package = "./plugins/netlify-plugin-env-var-by-context"
