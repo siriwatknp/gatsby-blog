@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 console.log('ACCESS_TOKEN', process.env.ACCESS_TOKEN);
+console.log('ACCESS_TOKEN2', process.env.ACCESS_TOKEN2);
 console.log('NODE_VERSION', process.env.NODE_VERSION);
 console.log('CONTEXT', process.env.CONTEXT);
 console.log('NODE_ENV', process.env.NODE_ENV);
