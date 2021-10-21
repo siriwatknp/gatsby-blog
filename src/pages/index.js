@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
+console.log('GATSBY_ACCESS_TOKEN', process.env.GATSBY_ACCESS_TOKEN);
 console.log('ACCESS_TOKEN', process.env.ACCESS_TOKEN);
 console.log('ACCESS_TOKEN2', process.env.ACCESS_TOKEN2);
 console.log('NODE_VERSION', process.env.NODE_VERSION);
